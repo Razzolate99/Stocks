@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		340752D5293F51430051B702 /* StockCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340752D4293F51430051B702 /* StockCard.swift */; };
+		344FA676293F87B600A53DDF /* APIRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344FA675293F87B600A53DDF /* APIRequests.swift */; };
+		344FA678293F8A0100A53DDF /* JSONDecoders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344FA677293F8A0100A53DDF /* JSONDecoders.swift */; };
+		3450AFBD293F70F70003CB11 /* WatchlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3450AFBC293F70F70003CB11 /* WatchlistView.swift */; };
+		3450AFBF293F76B50003CB11 /* StockMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3450AFBE293F76B50003CB11 /* StockMockData.swift */; };
+		3450AFC1293F77790003CB11 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3450AFC0293F77790003CB11 /* LineChart.swift */; };
+		3450AFC3293F7F8B0003CB11 /* SearchStockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3450AFC2293F7F8B0003CB11 /* SearchStockView.swift */; };
+		3450AFC5293F81140003CB11 /* StockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3450AFC4293F81140003CB11 /* StockCell.swift */; };
 		346DE22B293CCEAD00DD012B /* StocksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346DE22A293CCEAD00DD012B /* StocksApp.swift */; };
 		346DE22D293CCEAD00DD012B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346DE22C293CCEAD00DD012B /* ContentView.swift */; };
 		346DE22F293CCEAE00DD012B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 346DE22E293CCEAE00DD012B /* Assets.xcassets */; };
 		346DE232293CCEAE00DD012B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 346DE231293CCEAE00DD012B /* Preview Assets.xcassets */; };
+		346DE23A293CD07500DD012B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346DE239293CD07500DD012B /* HeaderView.swift */; };
+		346DE23E293CD2D800DD012B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346DE23D293CD2D800DD012B /* Extensions.swift */; };
+		346DE240293CD7FF00DD012B /* PortfolioCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346DE23F293CD7FF00DD012B /* PortfolioCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		340752D4293F51430051B702 /* StockCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockCard.swift; sourceTree = "<group>"; };
+		344FA675293F87B600A53DDF /* APIRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequests.swift; sourceTree = "<group>"; };
+		344FA677293F8A0100A53DDF /* JSONDecoders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecoders.swift; sourceTree = "<group>"; };
+		3450AFBC293F70F70003CB11 /* WatchlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistView.swift; sourceTree = "<group>"; };
+		3450AFBE293F76B50003CB11 /* StockMockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockMockData.swift; sourceTree = "<group>"; };
+		3450AFC0293F77790003CB11 /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		3450AFC2293F7F8B0003CB11 /* SearchStockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchStockView.swift; sourceTree = "<group>"; };
+		3450AFC4293F81140003CB11 /* StockCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockCell.swift; sourceTree = "<group>"; };
 		346DE227293CCEAD00DD012B /* Stocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		346DE22A293CCEAD00DD012B /* StocksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksApp.swift; sourceTree = "<group>"; };
 		346DE22C293CCEAD00DD012B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		346DE22E293CCEAE00DD012B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		346DE231293CCEAE00DD012B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		346DE239293CD07500DD012B /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		346DE23D293CD2D800DD012B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		346DE23F293CD7FF00DD012B /* PortfolioCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,9 +54,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		344FA674293F86A900A53DDF /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				344FA675293F87B600A53DDF /* APIRequests.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
 		346DE21E293CCEAD00DD012B = {
 			isa = PBXGroup;
 			children = (
+				3450AFBE293F76B50003CB11 /* StockMockData.swift */,
 				346DE229293CCEAD00DD012B /* Stocks */,
 				346DE228293CCEAD00DD012B /* Products */,
 			);
@@ -51,8 +82,10 @@
 		346DE229293CCEAD00DD012B /* Stocks */ = {
 			isa = PBXGroup;
 			children = (
+				344FA674293F86A900A53DDF /* Requests */,
+				346DE23C293CD2BE00DD012B /* Helpers */,
+				346DE238293CD05900DD012B /* Views */,
 				346DE22A293CCEAD00DD012B /* StocksApp.swift */,
-				346DE22C293CCEAD00DD012B /* ContentView.swift */,
 				346DE22E293CCEAE00DD012B /* Assets.xcassets */,
 				346DE230293CCEAE00DD012B /* Preview Content */,
 			);
@@ -65,6 +98,30 @@
 				346DE231293CCEAE00DD012B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		346DE238293CD05900DD012B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				346DE22C293CCEAD00DD012B /* ContentView.swift */,
+				346DE239293CD07500DD012B /* HeaderView.swift */,
+				346DE23F293CD7FF00DD012B /* PortfolioCard.swift */,
+				340752D4293F51430051B702 /* StockCard.swift */,
+				3450AFBC293F70F70003CB11 /* WatchlistView.swift */,
+				3450AFC0293F77790003CB11 /* LineChart.swift */,
+				3450AFC2293F7F8B0003CB11 /* SearchStockView.swift */,
+				3450AFC4293F81140003CB11 /* StockCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		346DE23C293CD2BE00DD012B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				346DE23D293CD2D800DD012B /* Extensions.swift */,
+				344FA677293F8A0100A53DDF /* JSONDecoders.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +194,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				346DE240293CD7FF00DD012B /* PortfolioCard.swift in Sources */,
 				346DE22D293CCEAD00DD012B /* ContentView.swift in Sources */,
+				3450AFC1293F77790003CB11 /* LineChart.swift in Sources */,
+				346DE23A293CD07500DD012B /* HeaderView.swift in Sources */,
+				3450AFC5293F81140003CB11 /* StockCell.swift in Sources */,
+				3450AFBD293F70F70003CB11 /* WatchlistView.swift in Sources */,
+				3450AFC3293F7F8B0003CB11 /* SearchStockView.swift in Sources */,
 				346DE22B293CCEAD00DD012B /* StocksApp.swift in Sources */,
+				340752D5293F51430051B702 /* StockCard.swift in Sources */,
+				344FA678293F8A0100A53DDF /* JSONDecoders.swift in Sources */,
+				3450AFBF293F76B50003CB11 /* StockMockData.swift in Sources */,
+				344FA676293F87B600A53DDF /* APIRequests.swift in Sources */,
+				346DE23E293CD2D800DD012B /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
