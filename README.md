@@ -1,4 +1,5 @@
 # Stocks
+Click the play button in the top left!
 Stock viewing App written in swift-UI utilziing the https://finnhub.io/docs/api api to show real time stock Data. 
 {{Not final product yet}} 
 
